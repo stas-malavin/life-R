@@ -21,4 +21,5 @@ or "Escape" (Windows).
 **Speed** - Speed of the process. Next cycle comes in 1/Speed seconds.
 
 © S. Malavin, 2015
+
 stas.malavin@openmailbox.org

@@ -14,12 +14,11 @@ or "Escape" (Windows).
 7. To add or remove some points input 'Live()' again, follow 4.
 
 ### Arguments:
-*n*			Number of rows and columns in the field. Current default is 20. If you change it significantly you may need to adjust 'cex' parameter in the script body manually.
+**n** - Number of rows and columns in the field. Current default is 20. If you change it significantly you may need to adjust 'cex' parameter in the script body manually.
 
-*continue* -- If TRUE (default), you may add or remove some points and then continue the last session. Just don't close the graphics window.
+**continue** - If TRUE (default), you may add or remove some points and then continue the last session. Just don't close the graphics window.
 
-*Speed* -- Speed of the process. Next cycle comes in 1/Speed seconds.
+**Speed** - Speed of the process. Next cycle comes in 1/Speed seconds.
 
 © S. Malavin, 2015
-
 stas.malavin@openmailbox.org

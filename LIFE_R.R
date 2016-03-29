@@ -1,4 +1,4 @@
-Live <- function(n = 20, continue = if (is.null(dev.list())) F else T, Speed = 1.5)
+Live <- function(n = 20, continue = if (is.null(dev.list())) FALSE else TRUE, Speed = 1.5)
 {
 cat('Life for R language.\nTo set points use the mouse.\nTo finish setting and start the process click the right button (Linux console) or click and choose "Stop" (Windows GUI).\nTo stop the process in the console window press "Ctrl-C" (Linux) or "Escape" (Windows).\nFor arguments see "Liveme.txt".\n© S. Malavin, 2015')
 if (!continue | !exists('M')) {
